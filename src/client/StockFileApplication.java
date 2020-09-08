@@ -28,6 +28,7 @@ public class StockFileApplication {
 	 */
 	public static List<HashMap<String, Double>> populateStockFileData(List<String> headers, List<String> lines){
 		List<HashMap<String, Double>> dataResult = new ArrayList<>();
+
 		// Insert your code here..
 		return dataResult;
 	}

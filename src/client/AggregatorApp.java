@@ -22,7 +22,7 @@ public class AggregatorApp {
 
 		MinAggregator agg = new MinAggregator();
 		AggregatorProcessor<MinAggregator> aggsProcessor = new AggregatorProcessor<MinAggregator>(agg, "table.csv");
-		double value = aggsProcessor.runAggregator(1);
+		double value = aggsProcessor.runAggregator(3);
 		System.out.println(value);
 	
 

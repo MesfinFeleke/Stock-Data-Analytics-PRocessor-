@@ -3,6 +3,7 @@ package aggregators;
 import fileprocessors.StockFileReader;
 
 import java.io.IOException;
+import java.util.Iterator;
 import java.util.List;
 
 public class AggregatorProcessor<T extends Aggregator>{
@@ -33,8 +34,14 @@ public class AggregatorProcessor<T extends Aggregator>{
         List< String > lines = fileReader.readFileData();
         columnIndex--;
         for (String line : lines) {
+
             String[] numbers = line.split(",");
+
+
+            System.out.println(numbers[1]);
+
             double value = Double.parseDouble(numbers[columnIndex]);
+
             aggregator.add(value);
 
         }
