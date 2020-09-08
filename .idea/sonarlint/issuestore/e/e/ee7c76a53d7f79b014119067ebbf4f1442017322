@@ -1,0 +1,8 @@
+
+x
+java:S1488"bImmediately return this expression instead of assigning it to the temporary variable "dataResult".(Ó¸ôÌ
+A
+java:S1172"&Remove these unused method parameters.(¯’“ øÿÿÿÿ
+S
+java:S1197"8Move the array designator from the variable to the type.(²Á€œüÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(÷ÜíÚþÿÿÿÿ
